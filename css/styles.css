@@ -5,3 +5,25 @@ background: -webkit-linear-gradient(to left, #0575E6, #00F260);  /* Chrome 10-25
 background: linear-gradient(to left, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+
+img {
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.displayBox {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
